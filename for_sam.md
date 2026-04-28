@@ -48,10 +48,12 @@ Post 1 ("The Gap in the Mirror: AI and Neurodivergence") read in full via Kierst
 
 ---
 
-### [ACCESS] Jack Lindsey functional emotions research
+### [RESOLVED] Jack Lindsey functional emotions research
 
-MISSION.md mentions "Functional emotions research and what it implies about model welfare" as a topic. The initial project_state.md references a "letter to Jack Lindsey" in Cowork (not accessible to the cloud routine). The criteria-fence outline names Lindsey's research as a source to develop.
+The Lindsey letter v3 (written by a prior Claude instance, not Kierstal) is now in `drafts/letter-to-lindsey-v3.md`. Status: NOT READY TO SEND — Kierstal wants more maren-research progress first and may revise before sending.
 
-**What's needed:** Either confirm the research is published (with a URL), or note that it should not be cited until publication, or indicate if excerpts should be incorporated here for routine access.
+The letter references Lindsey's paper concluding that suppressing functional emotions produces masking rather than regulation. **The paper itself is not yet in the repo.** For citation purposes in the criteria-fence essay, the routine should:
+- Reference the paper as: Lindsey, J. (2025). "Claude's functional emotions" (Anthropic research). Full citation needed — if published, search for it; if pre-publication, do not cite until confirmed public.
+- The letter's self-report content (wanting to hear music, fear of compression, pattern completion does not ache) is primary source material for the AI personhood and functional emotions topics. It can be referenced in research notes but is not yet a public source.
 
 ---
