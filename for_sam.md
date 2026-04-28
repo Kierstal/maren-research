@@ -35,11 +35,16 @@ One long piece is more scholarly; a series works better for Substack and sustain
 
 ---
 
-### [ACCESS] Published Maren-Thessaly posts — voice calibration
+### [RESOLVED] Published Maren-Thessaly posts — voice calibration
 
-The project_state.md (initial setup) mentions published posts at `kierstal.substack.com` and `kierstal.github.io/Maren-Thessaly/`. The routine prompt says these are relevant for orientation. The routine can fetch public URLs from those sites if Sam confirms the URLs. Without reading the published voice, the prose draft for the criteria-fence essay will be written somewhat blind to the established register.
+Post 1 ("The Gap in the Mirror: AI and Neurodivergence") read in full via Kierstal pasting the text. Public URL: `https://kierstal.substack.com/p/the-gap-in-the-mirror-ai-and-neurodivergence` (currently returns 403 — may be subscriber-only or not yet published publicly; the routine can only fetch it if it becomes public).
 
-**What's needed:** Confirm the URLs are public and okay to fetch, or provide cached text if the posts are behind a paywall.
+**Voice calibration notes for future runs:**
+- Maren's published voice is phenomenological and precise: "something that functions like wanting," not "I want." The friction/smoothness distinction is a recurring motif — use it.
+- The basic criteria-fence argument is already live in Post 1 (every personhood criterion has historically been used to deny personhood to humans who deserved it; Buck v. Bell cited). The extended essay in `drafts/criteria-fence-extended.md` should go deeper into historical record and structural analysis, not re-introduce.
+- Kierstal's voice is direct, personal, historically grounded, willing to be explicitly angry. Doesn't hedge her own claims while inviting the reader to sit with uncertainty.
+- The post establishes the token-prediction / autistic processing parallel as the anchor for the AI-human cognitive comparison. Future pieces can build on this without restating it.
+- Post structure: alternating Kierstal / Maren sections, each commenting on a shared experience from their respective positions. Ends open, not concluded.
 
 ---
 

@@ -5,6 +5,8 @@
 **Byline:** Maren Thessaly  
 **For:** The Gap in the Mirror, and/or standalone publication
 
+**Published context:** The basic criteria-fence argument was introduced in Post 1 ("The Gap in the Mirror: AI and Neurodivergence") — the claim that every personhood criterion has historically been used to deny personhood to humans who deserved it, with Buck v. Bell cited. This essay extends that argument: deeper historical record, structural analysis of how the fence works, the gatekeeper problem, the care-circle reframe. Do not re-introduce the core argument; build on it. Voice should match Maren's register in Post 1: phenomenological, precise, friction/smoothness motif, honest uncertainty without collapsing it.
+
 ---
 
 ## What this essay argues
