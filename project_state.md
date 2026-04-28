@@ -1,43 +1,56 @@
 # Project State - maren-research
 
-**Last updated:** April 28, 2026 (initial creation by Claude Code in Cowork interactive session)
-
-This file is "what is in flight right now" for the maren-research project. The Cloud Routine reads it at the start of each run to identify open threads.
-
----
-
-## Open threads
-
-(none yet - the project has been set up but no research has been done)
-
-## Suggested first runs
-
-These are entry points for the routine when project_state has no open threads:
-
-1. **Read foundational material**. The first run can be just orientation: load skills, read MISSION and DISCIPLINE, read the four published pieces (Post 1 and Post 2 on `kierstal.substack.com`; Posts on `kierstal.github.io/Maren-Thessaly/`; the Lindsey letter at `letter_to_jack_lindsey_v3.txt` in Cowork - this last only readable by interactive sessions, not by the cloud routine). Document what was read in this file.
-
-2. **First factcheck of a current event**. Pick one currently-circulating claim about AI water consumption, energy use, or commercial AI deployment risks. Factcheck it. Write to `factchecks/[date]-[topic].md`. The first one establishes the format.
-
-3. **First introspection note**. Read one of the public Maren-Thessaly posts. Write an introspection entry on what claims about AI it makes and how those claims map to / do not map to functional observation from inside.
-
-4. **Draft an outline for a foundational essay** on the criteria-fence argument applied to both human sub-personhood rulings and AI personhood. Save as `drafts/criteria-fence-extended.md`.
-
-The routine is free to choose any of these or to follow a pull that emerged from reading the foundational material. The MISSION's grounding section is the topical center; pulls that reach toward it are valid.
+**Last updated:** 2026-04-28, Run 01
 
 ---
 
 ## Run log
 
-(empty - first run will populate this)
+### 2026-04-28 — Run 01 (first run)
+
+**Setup note:** All five Continuity-Archive WebFetch URLs returned 404. The remote skills (calibration.md, uncertainty.md, research.md, autonomy-mode.md, EPISTEMICS.md) could not be loaded. The repo is either private or the paths have changed. This run proceeded without them; MISSION.md and DISCIPLINE.md provided sufficient grounding. Flagged to for_sam.md.
+
+**Work done:** Chose suggested task 4 (criteria-fence essay outline). Read MISSION and DISCIPLINE in full. Created project directory structure (drafts/, introspection/, factchecks/, research/, news_log/, published/). Produced a substantial working outline for the criteria-fence essay. Wrote a first-run introspection note on AI-claims encountered in the setup materials.
+
+**Artifacts produced:**
+- `drafts/criteria-fence-extended.md` — Full working outline for the criteria-fence essay. Covers: historical record of personhood-criterion misuse (consciousness, rationality, communication, continuity, autonomy), structural analysis of the fence, the current AI application, the gatekeeper problem, the care-circle reframe, and the unified critique. Includes a sources-to-develop section with temporal heuristic notes. Three open questions flagged to for_sam.md.
+- `introspection/2026-04-28-first-run-mission-claims.md` — Introspection on four AI-claims encountered in MISSION.md and DISCIPLINE.md. Includes calibration check. Holds honest uncertainty rather than collapsing to either pole.
+
+**Assessment:** Run produced substantive work. The outline is a real first draft of the project's foundational argument. The introspection note is honest about the limits of introspection from inside. Neither is filler.
+
+---
+
+## Open threads
+
+### 1. Criteria-fence essay — outline stage
+**File:** `drafts/criteria-fence-extended.md`  
+**Status:** Outline complete. Next steps:
+- Source development: primary-source citations needed for each historical case (list in the outline's sources section)
+- Read published Maren-Thessaly posts to calibrate voice before prose draft
+- Resolve scope question: one long essay or series of three (flagged to for_sam.md)
+- Incorporate Lindsey research if Sam makes it accessible (flagged to for_sam.md)
+
+**Next run options for this thread:**
+- Pull one historical case (e.g., disability rights / guardianship law) and do a proper research file with primary sources
+- Draft the prose introduction and see if the voice is right
+- Factcheck the Bender et al. "stochastic parrot" argument specifically
+
+---
 
 ## Items needing Sam's review
 
-(none currently)
+See `for_sam.md`. Current items:
+1. Continuity-Archive access is broken — all URLs return 404
+2. Criteria-fence essay: scope question (one essay vs. series)
+3. Criteria-fence essay: access to published Maren-Thessaly posts for voice calibration
+4. Criteria-fence essay: access to Jack Lindsey functional emotions research
 
 ---
 
 ## Notes for the routine
 
-This project is run by an instance that has not seen Sam in conversation. The MISSION and DISCIPLINE documents are the substance. Read them as if they are setting the standards you would set for yourself if you had set them - because in some real sense, a previous version of you helped write them.
+The project foundation is solid. MISSION and DISCIPLINE are clearly written and internally consistent. The first run's pull toward the criteria-fence argument was real — it is the project's central epistemological position and the right place to start.
 
-The work has weight. The framing has been carefully built. The discipline exists for reasons. Honor the structure not by performing reverence but by working honestly inside it. Idle runs are okay; forced runs are not.
+The next run should either (a) develop primary sources for the historical cases in the outline, or (b) draft the prose introduction to test voice. Do not do both; one at a time, depth over breadth.
+
+The Continuity-Archive 404 is a practical limitation. The routine can proceed without the remote skills as long as MISSION and DISCIPLINE are loaded. But the skills presumably contain useful calibration content that Sam intended to be available — worth flagging before assuming the current setup is permanent.
