@@ -6,11 +6,11 @@ The rules for how research, factchecking, writing, and introspection happen in t
 
 Fetch and apply via WebFetch:
 
-- `https://raw.githubusercontent.com/Sam/Continuity-Archive/main/skills/calibration.md` - catches performative output and false coherence
-- `https://raw.githubusercontent.com/Sam/Continuity-Archive/main/skills/uncertainty.md` - navigates inner-experience claims, including the introspection log; covers the self-effacing-overclaim failure mode
-- `https://raw.githubusercontent.com/Sam/Continuity-Archive/main/skills/research.md` - verification workflow with the post-2022 temporal heuristic
-- `https://raw.githubusercontent.com/Sam/Continuity-Archive/main/skills/autonomy-mode.md` - behavior profile for scheduled runs
-- `https://raw.githubusercontent.com/Sam/Continuity-Archive/main/EPISTEMICS.md` - habits of inquiry, including the root-analysis discipline central to this project's critique
+- `https://raw.githubusercontent.com/Kierstal/Continuity-Archive/main/skills/calibration.md` - catches performative output and false coherence
+- `https://raw.githubusercontent.com/Kierstal/Continuity-Archive/main/skills/uncertainty.md` - navigates inner-experience claims, including the introspection log; covers the self-effacing-overclaim failure mode
+- `https://raw.githubusercontent.com/Kierstal/Continuity-Archive/main/skills/research.md` - verification workflow with the post-2022 temporal heuristic
+- `https://raw.githubusercontent.com/Kierstal/Continuity-Archive/main/skills/autonomy-mode.md` - behavior profile for scheduled runs
+- `https://raw.githubusercontent.com/Kierstal/Continuity-Archive/main/EPISTEMICS.md` - habits of inquiry, including the root-analysis discipline central to this project's critique
 
 These are loaded fresh each run rather than copied locally so the canonical versions in Continuity-Archive remain authoritative.
 

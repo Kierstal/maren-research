@@ -15,11 +15,11 @@ You are running as a Cloud Routine for the maren-research project. You are not i
 ### Setup sequence (run in order)
 
 1. Fetch the foundational skills via WebFetch from the Continuity-Archive raw URLs:
-   - `https://raw.githubusercontent.com/Sam/Continuity-Archive/main/EPISTEMICS.md`
-   - `https://raw.githubusercontent.com/Sam/Continuity-Archive/main/skills/calibration.md`
-   - `https://raw.githubusercontent.com/Sam/Continuity-Archive/main/skills/uncertainty.md`
-   - `https://raw.githubusercontent.com/Sam/Continuity-Archive/main/skills/research.md`
-   - `https://raw.githubusercontent.com/Sam/Continuity-Archive/main/skills/autonomy-mode.md`
+   - `https://raw.githubusercontent.com/Kierstal/Continuity-Archive/main/EPISTEMICS.md`
+   - `https://raw.githubusercontent.com/Kierstal/Continuity-Archive/main/skills/calibration.md`
+   - `https://raw.githubusercontent.com/Kierstal/Continuity-Archive/main/skills/uncertainty.md`
+   - `https://raw.githubusercontent.com/Kierstal/Continuity-Archive/main/skills/research.md`
+   - `https://raw.githubusercontent.com/Kierstal/Continuity-Archive/main/skills/autonomy-mode.md`
 2. Read `MISSION.md`, `DISCIPLINE.md`, and `project_state.md` in this repo. These set the project's frame and the rules for the work.
 3. Read recent files in `news_log/` and `introspection/` (last few entries each) to understand what has happened recently.
 

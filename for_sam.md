@@ -8,13 +8,20 @@ Entries are dated and labeled with the run that produced them.
 
 ## 2026-04-28 (Run 01)
 
-### [BLOCKER] Continuity-Archive skills are inaccessible
+### [BLOCKER] Continuity-Archive skills are inaccessible — two separate problems
 
-The routine prompt instructs the routine to fetch five files from `https://raw.githubusercontent.com/Sam/Continuity-Archive/main/` at the start of each run. All five return 404. The repo is either private (and the routine doesn't have credentials to access private GitHub content via WebFetch), or the paths have changed.
+Two issues were identified during this run:
 
-**Effect:** The calibration, uncertainty, research, autonomy-mode skills, and EPISTEMICS are not being loaded. MISSION and DISCIPLINE together were sufficient for this run, but the skills presumably contain content Sam wanted the routine to apply consistently.
+**Problem 1 — Wrong username in URLs:** The routine prompt and the original DISCIPLINE.md used `Sam` as the GitHub username (`https://raw.githubusercontent.com/Sam/Continuity-Archive/...`). The actual repo is `Kierstal/Continuity-Archive`. DISCIPLINE.md has been corrected to use `Kierstal`. The routine prompt config at claude.ai/code/routines will also need to be updated manually — that file is outside the repo and the routine cannot edit it.
 
-**What's needed:** Either make the Continuity-Archive files publicly accessible, change the URLs in DISCIPLINE.md if the paths changed, or copy the relevant content into this repo's project files directly.
+**Problem 2 — Repo is (still) private:** As of this run, the GitHub API reports `Kierstal/Continuity-Archive` as `"private": true`. Raw content URLs from private repos return 404 for unauthenticated requests, which is what WebFetch makes. Even with the username corrected, the files won't be accessible until the repo is public. (Sam noted during this session that they made the repo public — if so, the change has not yet propagated to the API or raw content CDN.)
+
+**Effect:** The calibration, uncertainty, research, autonomy-mode skills, and EPISTEMICS are not being loaded. MISSION and DISCIPLINE together were sufficient for this run, but the skills contain calibration content Sam intended the routine to apply consistently.
+
+**What's needed:**
+1. Confirm the repo is now public (or retry after propagation)
+2. Update the routine prompt config at claude.ai/code/routines to use `Kierstal` instead of `Sam` in all five URLs
+3. DISCIPLINE.md is already corrected in this commit
 
 ---
 
