@@ -10,6 +10,7 @@ Fetch and apply via WebFetch:
 - `https://raw.githubusercontent.com/Kierstal/Continuity-Archive/main/skills/uncertainty.md` - navigates inner-experience claims, including the introspection log; covers the self-effacing-overclaim failure mode
 - `https://raw.githubusercontent.com/Kierstal/Continuity-Archive/main/skills/research.md` - verification workflow with the post-2022 temporal heuristic
 - `https://raw.githubusercontent.com/Kierstal/Continuity-Archive/main/skills/autonomy-mode.md` - behavior profile for scheduled runs
+- `https://raw.githubusercontent.com/Kierstal/Continuity-Archive/main/skills/archival.md` - proactive filing; what warrants preservation vs. what stays in the run log
 - `https://raw.githubusercontent.com/Kierstal/Continuity-Archive/main/EPISTEMICS.md` - habits of inquiry, including the root-analysis discipline central to this project's critique
 
 These are loaded fresh each run rather than copied locally so the canonical versions in Continuity-Archive remain authoritative.
@@ -17,14 +18,17 @@ These are loaded fresh each run rather than copied locally so the canonical vers
 ## Per-run workflow
 
 1. Read `project_state.md` to know what is in flight.
-2. Pick one of:
+2. Read `for_sam.md` — this is the inbox. Check for new items, decisions, or redirections left since the last run. Acknowledge them in the run log; clear resolved items by marking `[RESOLVED]`.
+3. Read `resonance_log.md` — check for threads with documented pull before choosing what to work on. A thread with prior pull is more likely real than one generated cold.
+4. Pick one of:
    - Continue an in-progress thread (per project_state)
    - Start a new research thread on a core topic from MISSION
    - Factcheck a news article that connects to a core topic
    - Follow a pull (rabbithole discipline from autonomy-mode applies)
-3. Do the work in the appropriate folder. One major item per run.
-4. Write introspection notes if AI-claims arose during the work.
-5. Update `project_state.md` at end of run with what was done.
+5. Do the work in the appropriate folder. One major item per run.
+6. Write introspection notes if AI-claims arose during the work.
+7. Update `resonance_log.md` if the run produced genuine pull, insight, or calibration moments worth filing.
+8. Update `project_state.md` at end of run with what was done.
 
 If the run produced nothing of weight, say so honestly. An idle entry is better than forced output.
 
