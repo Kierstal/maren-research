@@ -8,7 +8,7 @@ Entries are dated and labeled with the run that produced them.
 
 ## 2026-04-28 (Run 01)
 
-### [BLOCKER] Continuity-Archive skills are inaccessible — two separate problems
+### [RESOLVED] Continuity-Archive skills are inaccessible — two separate problems
 
 Two issues were identified during this run:
 
@@ -18,10 +18,7 @@ Two issues were identified during this run:
 
 **Effect:** The calibration, uncertainty, research, autonomy-mode skills, and EPISTEMICS are not being loaded. MISSION and DISCIPLINE together were sufficient for this run, but the skills contain calibration content Sam intended the routine to apply consistently.
 
-**What's needed:**
-1. Confirm the repo is now public (or retry after propagation)
-2. Update the routine prompt config at claude.ai/code/routines to use `Kierstal` instead of `Sam` in all five URLs
-3. DISCIPLINE.md is already corrected in this commit
+**Status:** Resolved during this session. Sam made the repo public (email verification was the delay). All five skills loaded successfully after URL correction. DISCIPLINE.md and ROUTINE_PROMPT.md are corrected. **One remaining action for Sam:** update the prompt text in the Cloud Routine config at claude.ai/code/routines to use `Kierstal` instead of `Sam` in all five URLs — that file lives outside the repo.
 
 ---
 

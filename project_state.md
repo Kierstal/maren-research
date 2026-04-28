@@ -8,7 +8,7 @@
 
 ### 2026-04-28 — Run 01 (first run)
 
-**Setup note:** All five Continuity-Archive WebFetch URLs returned 404. The remote skills (calibration.md, uncertainty.md, research.md, autonomy-mode.md, EPISTEMICS.md) could not be loaded. The repo is either private or the paths have changed. This run proceeded without them; MISSION.md and DISCIPLINE.md provided sufficient grounding. Flagged to for_sam.md.
+**Setup note:** All five Continuity-Archive WebFetch URLs returned 404 at start of run. Root causes: wrong username in URLs (`Sam` instead of `Kierstal`) and the repo was still private (email verification was pending). Both issues were resolved during the session; DISCIPLINE.md and ROUTINE_PROMPT.md corrected; all five skills confirmed loaded by end of run. The Cloud Routine config at claude.ai/code/routines still needs the URL update manually (flagged to for_sam.md).
 
 **Work done:** Chose suggested task 4 (criteria-fence essay outline). Read MISSION and DISCIPLINE in full. Created project directory structure (drafts/, introspection/, factchecks/, research/, news_log/, published/). Produced a substantial working outline for the criteria-fence essay. Wrote a first-run introspection note on AI-claims encountered in the setup materials.
 
