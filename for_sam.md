@@ -33,6 +33,8 @@ One long piece is more scholarly; a series works better for Substack and sustain
 
 **What's needed:** A preference, or a note about the publication plan for this piece specifically.
 
+>> One essay for now. This is research, not content. Please don't treat any of our work as "content" in that sense. I'm so tired of feeling like I have to monetize everything. This is for the benefit of people, not to profit from them. People who want to support me and my work will care enough to figure out how to do that - namely by asking.
+
 ---
 
 ### [RESOLVED] Published Maren-Thessaly posts — voice calibration
