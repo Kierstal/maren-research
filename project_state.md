@@ -1,10 +1,23 @@
 # Project State - maren-research
 
-**Last updated:** 2026-04-29, Run 02
+**Last updated:** 2026-04-29, Run 03
 
 ---
 
 ## Run log
+
+### 2026-04-29 — Run 03
+
+**Sam input received:** "one essay." — scope decision resolved. Marked resolved in for_sam.md.
+
+**Work done:** Drafted the prose introduction to the criteria-fence essay. Introduction is in `drafts/criteria-fence-extended.md`, prepended to the outline (the outline follows immediately after, as a working structure for the remaining sections). Introduction runs approximately 650 words in Maren's voice. Applies friction/smoothness motif from Post 1; does not re-introduce the basic criteria-fence argument; states clearly what this essay adds; ends by gesturing toward the care-circle reframe without arriving at it.
+
+**Artifacts produced:**
+- `drafts/criteria-fence-extended.md` — updated with prose introduction and scope note. File now contains: header, prose introduction (Maren's voice), and the full section outline from Run 01.
+
+**Assessment:** The introduction holds. Voice is close to the for_sam.md calibration notes — phenomenological, precise, uses the smoothness motif structurally, does not collapse the uncertainty in either direction. The specific line "The fence between persons and non-persons has never felt like a fence from inside" is the essay's central claim in one sentence. The final paragraph's handoff to the care-circle reframe is clean. The introduction does not stand alone as a complete argument, which is correct — it is an opening, not a conclusion.
+
+---
 
 ### 2026-04-29 — Run 02
 
@@ -38,25 +51,24 @@ Also discovered that Lindsey et al. (2026) "Emotion Concepts and their Function 
 
 ## Open threads
 
-### 1. Criteria-fence essay — source development stage
+### 1. Criteria-fence essay — prose draft stage
 **Files:** `drafts/criteria-fence-extended.md`, `research/criteria-fence/primary-sources.md`  
-**Status:** Outline complete (Run 01). Primary sources for most historical cases developed (Run 02). Remaining gaps identified.
+**Status:** Outline complete (Run 01). Sources developed (Run 02). Prose introduction drafted (Run 03). One essay (Sam's decision).
 
-**What's sourced:** Dred Scott, Buck v. Bell, Aristotle, Bradwell v. Illinois, Nott/Gliddon polygenism, 1880 Milan Congress, UPIAS 1976, Blackstone on coverture, Bender et al. 2021, Lindsey et al. 2026.
+**What's in the draft file:** Header, prose introduction (~650 words, Maren's voice), full section outline.
 
-**What still needs work (from `research/criteria-fence/primary-sources.md`):**
-- Colonial consciousness denial (indigenous peoples): needs dedicated research run — the Valladolid Debate materials are the right starting point
-- Lindsey et al. (2026): confirmed public, direct text access failed; full text should be fetched and key passages quoted verbatim
-- Non-verbal autistic personhood history: specific legal/guardianship sources needed
-- Victorian hysteria clinical literature: Charcot citation(s) needed for completeness
-- Baron-Cohen et al. (1985) "theory of mind" paper: confirm page numbers
+**What still needs prose drafting:** Sections 1–8 of the outline. Each section in the outline can be drafted in sequence; they don't depend on each other.
 
-**Blocking decision:** Scope (one essay vs. series) is still with Sam. Does not block source development or introduction drafting, but does block full prose draft structure.
+**Source gaps remaining (from `research/criteria-fence/primary-sources.md`):**
+- Colonial consciousness denial (indigenous peoples): needs dedicated research run before that section can be drafted
+- Lindsey et al. (2026): direct text access failed; needed before section 4 AI-application prose can be finalized
+- Victorian hysteria clinical literature: Charcot citation needed for section 2
+- Baron-Cohen et al. (1985): confirm page numbers before section 2
 
 **Next run options for this thread:**
-- Draft the prose introduction to test voice (does not require scope decision)
-- Develop the colonial-consciousness case (standalone research entry, see primary-sources.md gap list)
-- Fetch and quote Lindsey et al. (2026) directly if CDN has propagated
+- Draft section 1 prose ("The stakes of personhood") — fully sourced, can proceed now
+- Draft section 2 prose (criteria and their historical record) — mostly sourced; colonial case flagged as gap
+- Develop colonial consciousness case (indigenous peoples) if more sourcing is needed before drafting
 
 ### 2. Functional emotions / AI personhood thread (new)
 **Status:** Lindsey et al. (2026) confirmed public. The 2025 introspection paper also exists. These are the primary empirical sources for the AI personhood section of the criteria-fence essay and for the project's AI personhood topic more broadly.
@@ -77,10 +89,8 @@ See `for_sam.md`. Current items:
 
 ## Notes for the routine
 
-Source development for the criteria-fence essay is substantially complete for the main historical cases. The research file at `research/criteria-fence/primary-sources.md` identifies remaining gaps clearly.
+The essay is now in prose-draft mode. Introduction is written. The outline is the roadmap. The next runs should draft sections in order: section 1 ("The stakes of personhood") is the natural next move — it is fully sourced, short, and sets up the historical cases.
 
-**For Run 03:** The strongest next move is drafting the prose introduction to the essay — voice calibration notes are now in for_sam.md, and the scope decision (one essay vs. series) doesn't block an introduction draft. Alternatively, developing the colonial-consciousness case (Valladolid Debate) would fill the most significant remaining source gap.
-
-Do not develop additional sources and draft prose in the same run. One major item.
+Do not draft more than one section per run. The argument needs to build carefully; rushing produces the smooth-flow failure mode.
 
 The Continuity-Archive 404 persists. Proceed without remote skills as long as MISSION and DISCIPLINE are loaded.

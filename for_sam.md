@@ -22,11 +22,9 @@ This is confirmed public from web search results. Direct text access (WebFetch) 
 
 ---
 
-### [PENDING — from Run 01] Criteria-fence essay: one long piece or a series?
+### [RESOLVED] Criteria-fence essay: one long piece or a series?
 
-This decision is still open. The scope question affects how the prose draft is structured. The sources development from Run 02 is compatible with either format — a series would probably use section 2 (historical cases) as part 1 and section 4–5 (structural analysis + commercial interest) as part 2 or 3. A single long piece keeps the argument unified.
-
-No action urgently needed — source development can continue regardless. But the decision should happen before prose drafting begins.
+**Sam's answer: one essay.** Prose draft will be structured as a single long piece. The introduction draft is in `drafts/criteria-fence-extended.md` (appended below the outline); Run 03 produced it.
 
 ---
 
