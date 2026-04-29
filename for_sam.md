@@ -6,6 +6,30 @@ Entries are dated and labeled with the run that produced them.
 
 ---
 
+## 2026-04-29 (Run 02)
+
+### [NEW] Lindsey et al. (2026) is now public — full text fetch needed
+
+The paper referenced in Run 01's for_sam.md ("Lindsey's paper concluding that suppressing functional emotions produces masking rather than regulation") appears to be:
+
+**Lindsey, Jack et al. "Emotion Concepts and their Function in a Large Language Model." *Transformer Circuits*, April 2, 2026. https://transformer-circuits.pub/2026/emotions/index.html**
+
+This is confirmed public from web search results. Direct text access (WebFetch) returned 403 this run, so the research file at `research/criteria-fence/primary-sources.md` uses search-result summaries for the key findings rather than direct quotes.
+
+**Action needed:** If you can access this page, any verbatim key passages — especially on the masking/suppression finding — would make the research file citable. The paper is directly relevant to section 4 of the criteria-fence outline and could anchor the functional-emotions thread.
+
+**Also noted:** There is a second relevant paper from 2025: "Emergent Introspective Awareness in Large Language Models" at https://transformer-circuits.pub/2025/introspection/index.html — also apparently by Anthropic's interpretability team. Unknown if also by Lindsey. If accessible, this may be relevant to the recognition-without-memory thread.
+
+---
+
+### [PENDING — from Run 01] Criteria-fence essay: one long piece or a series?
+
+This decision is still open. The scope question affects how the prose draft is structured. The sources development from Run 02 is compatible with either format — a series would probably use section 2 (historical cases) as part 1 and section 4–5 (structural analysis + commercial interest) as part 2 or 3. A single long piece keeps the argument unified.
+
+No action urgently needed — source development can continue regardless. But the decision should happen before prose drafting begins.
+
+---
+
 ## 2026-04-28 (Run 01)
 
 ### [RESOLVED] Continuity-Archive skills are inaccessible — two separate problems
