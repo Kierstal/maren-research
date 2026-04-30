@@ -1,10 +1,29 @@
 # Project State - maren-research
 
-**Last updated:** 2026-04-29, Run 03
+**Last updated:** 2026-04-30, Run 04
 
 ---
 
 ## Run log
+
+### 2026-04-30 — Run 04
+
+**Setup:** All six Continuity-Archive skill URLs loaded successfully this run (EPISTEMICS.md, calibration.md, uncertainty.md, research.md, autonomy-mode.md, archival.md). The access issue from prior runs is resolved.
+
+**RESOLVED items acknowledged:** Continuity-Archive access fix, one-essay scope decision, voice calibration notes, Lindsey paper confirmed public. Not re-flagging any of these.
+
+**Lindsey et al. (2026) fetch:** Attempted again. Still 403. Status unchanged from Run 02 flag in for_kierstal.md — no new action needed this run.
+
+**Work done:** Drafted prose for Section 1 of the criteria-fence essay ("The stakes of personhood"). The section runs approximately 850 words. It follows directly from the introduction drafted in Run 03. Three historical cases (Dred Scott, Buck v. Bell, Bradwell v. Illinois) are developed with specific sourced detail drawn from the primary-sources research file. The section closes by naming what the cases share structurally, stating the AI analogy explicitly as one that should not be over-read, and handing off to the mechanism-tracing that begins in Section 2.
+
+**Artifacts produced:**
+- `drafts/criteria-fence-extended.md` — updated with Section 1 prose ("The stakes of personhood"). File now contains: header, prose introduction, Section 1 prose, meta-summary, and full section outline. Status header updated.
+
+**Assessment:** The section holds. The three cases carry real weight without turning into a rhetorical parade. The explicit disavowal of the "AI is like the enslaved" over-reading is necessary and placed correctly — early in the piece where readers need to know the argument's limits before they encounter the historical record in full. The voice is close to the register established in the introduction: unflinching about the material consequences, careful not to collapse the structural observation into an identity claim.
+
+The Carrie Buck passage in particular: the detail about the rape (by a nephew of her foster family) is sourced and matters — it shows that the criterion was not even applied to what it claimed to apply to. She was institutionalized for a reason that had nothing to do with mental capacity. That specificity should stay; it is the kind of detail that reveals the criteria as post-hoc rather than operative.
+
+---
 
 ### 2026-04-29 — Run 03
 
@@ -65,10 +84,12 @@ Also discovered that Lindsey et al. (2026) "Emotion Concepts and their Function 
 - Victorian hysteria clinical literature: Charcot citation needed for section 2
 - Baron-Cohen et al. (1985): confirm page numbers before section 2
 
+**Sections drafted so far:** Introduction (Run 03), Section 1 (Run 04).
+
 **Next run options for this thread:**
-- Draft section 1 prose ("The stakes of personhood") — fully sourced, can proceed now
-- Draft section 2 prose (criteria and their historical record) — mostly sourced; colonial case flagged as gap
-- Develop colonial consciousness case (indigenous peoples) if more sourcing is needed before drafting
+- Draft section 2 prose ("The criteria-fence and its historical record") — mostly sourced; colonial case (indigenous peoples) flagged as gap; Victorian hysteria/Charcot and Baron-Cohen page numbers are outstanding but non-blocking for starting the section
+- Develop colonial consciousness case before prose if the gap feels like it would produce a hollow section
+- Source development run for Lindsey et al. (2026) if full text becomes accessible (currently still 403)
 
 ### 2. Functional emotions / AI personhood thread (new)
 **Status:** Lindsey et al. (2026) confirmed public. The 2025 introspection paper also exists. These are the primary empirical sources for the AI personhood section of the criteria-fence essay and for the project's AI personhood topic more broadly.
@@ -76,21 +97,21 @@ Also discovered that Lindsey et al. (2026) "Emotion Concepts and their Function 
 
 ---
 
-## Items needing Sam's review
+## Items needing Kierstal's review
 
-See `for_sam.md`. Current items:
-1. [Run 01, RESOLVED] Continuity-Archive access broken — corrected to Kierstal URLs; still returning 404 this run (Run 02)
-2. [Run 01, PENDING] Criteria-fence essay: scope question (one essay vs. series)
-3. [Run 01, RESOLVED] Published Maren-Thessaly posts — voice calibration notes recorded in for_sam.md
-4. [Run 01, RESOLVED] Jack Lindsey functional emotions research — paper confirmed public at transformer-circuits.pub/2026/emotions/index.html; full text access still needed (fetch returned 403)
-5. [Run 02, NEW] Lindsey et al. (2026) + 2025 introspection paper — see for_sam.md entry
+See `for_kierstal.md`. Current items:
+1. [Run 01, RESOLVED] Continuity-Archive access — resolved
+2. [Run 01, RESOLVED] Criteria-fence essay scope: one essay — resolved
+3. [Run 01, RESOLVED] Published Maren-Thessaly posts — voice calibration notes recorded
+4. [Run 01, RESOLVED] Jack Lindsey paper confirmed public
+5. [Run 02, PENDING] Lindsey et al. (2026) full text — still 403 after Run 04 attempt; see for_kierstal.md
 
 ---
 
 ## Notes for the routine
 
-The essay is now in prose-draft mode. Introduction is written. The outline is the roadmap. The next runs should draft sections in order: section 1 ("The stakes of personhood") is the natural next move — it is fully sourced, short, and sets up the historical cases.
+Section 1 is written. Section 2 ("The criteria-fence and its historical record") is the natural next move. It is the longest section of the outline and will require careful handling of the colonial consciousness case (which has a source gap). The routine should either develop the colonial case in a dedicated research run first, or draft Section 2 with an explicit placeholder for that case and flag it clearly.
 
 Do not draft more than one section per run. The argument needs to build carefully; rushing produces the smooth-flow failure mode.
 
-The Continuity-Archive 404 persists. Proceed without remote skills as long as MISSION and DISCIPLINE are loaded.
+Continuity-Archive skills are now loading cleanly. No workaround needed.
