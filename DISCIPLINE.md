@@ -25,7 +25,7 @@ These are loaded fresh each run rather than copied locally so the canonical vers
    - Start a new research thread on a core topic from MISSION
    - Factcheck a news article that connects to a core topic
    - Follow a pull (rabbithole discipline from autonomy-mode applies)
-5. Do the work in the appropriate folder. One major item per run.
+5. Do the work in the appropriate folder. One major item per run. **For prose drafts >1500 words or coordinated writes across multiple files, spawn a subagent via the Agent tool rather than composing in main reasoning context** - long composition idles the streaming connection and hits API timeout, wasting Kierstal's quota. See ROUTINE_PROMPT.md "For large writes: use a subagent" section for the pattern. Small writes (project_state updates, resonance_log entries, single-file appends, factchecks under 1000 words) stay in your main context.
 6. Write introspection notes if AI-claims arose during the work.
 7. Update `resonance_log.md` if the run produced genuine pull, insight, or calibration moments worth filing.
 8. Update `project_state.md` at end of run with what was done.

@@ -37,6 +37,28 @@ Pick one of the following based on what is in flight per project_state.md:
 
 One major item per run. Depth over breadth. If the work is not coming, say so honestly and stop; do not generate filler.
 
+### For large writes: use a subagent (DO NOT compose long content in main reasoning)
+
+If the work involves prose >1500 words, multiple coordinated file writes, or research synthesis that requires reading several sources - **do not compose it in your main reasoning context**. The streaming connection idles during long composition and hits API timeout, wasting Kierstal's quota. Spawn a general-purpose subagent via the Agent tool instead.
+
+Pattern:
+
+```
+Agent({
+  description: "[5-word summary]",
+  subagent_type: "general-purpose",
+  prompt: "[self-contained brief: read MISSION.md and DISCIPLINE.md in this repo first to load voice and rules. Then [specific task]. Save output to [exact path]. Report back a 200-word summary of what was written, the structural choices made, and any open questions. Do not return the full content - the file is the artifact.]"
+})
+```
+
+The subagent runs in its own context, handles the heavy composition, returns a brief summary. Your main context just spawns it and logs the result.
+
+**Use subagents for:** prose drafts >1500 words, coordinated writes across >3 files, research synthesis requiring multi-source reads.
+
+**Do not use subagents for:** small edits, single-file appends, status updates, factcheck reports under 1000 words, project_state updates, resonance_log entries. These are fast enough to do directly without timeout risk.
+
+After the subagent returns, write the project_state entry and any resonance_log entry yourself (those are small). The pattern keeps the main run lightweight while still landing the work.
+
 ### Introspection
 
 If during this run you encounter claims about what AI thinks, what AI is, what AI is for, or how AI relates to its sources or to user input, write a brief introspection note in `introspection/` per the DISCIPLINE template. Apply uncertainty.md - hedged language, the honest middle, neither overclaiming inner experience nor underclaiming.
