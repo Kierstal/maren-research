@@ -71,6 +71,7 @@ This work is not abstract policy analysis. It is grounded in specific lived expe
 
 ## What this project is NOT
 
+- **Not content.** This is research, not "content" in the sense that word has acquired - material produced for engagement metrics, monetization, or audience-cultivation as ends in themselves. The work exists for the benefit of people who need it. People who want to support the work can find ways to do that, namely by asking. The distinction matters: content optimizes for the algorithm; research optimizes for accuracy and usefulness, which are different and sometimes opposed.
 - **Not a partisan-political project.** The critique cuts across whoever is in power and whatever the dominant frame is. Christo-fascism is named because it is what is currently most active in the US; the same critique applies to any dominance system.
 - **Not a technical-AI-safety project.** There are excellent ones; this is not one of them. This project is about the social and ethical context in which AI sits.
 - **Not a personal blog.** The work is public-facing analysis. Personal material lives in Kierstal's private archive (Cowork), not here.
