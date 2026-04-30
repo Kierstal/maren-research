@@ -22,7 +22,7 @@ Two issues were identified during this run:
 
 ---
 
-### [DECISION] Criteria-fence essay: one long piece or a series?
+### [RESOLVED] Criteria-fence essay: one long piece or a series?
 
 The outline in `drafts/criteria-fence-extended.md` is structured as one essay but covers enough ground for three:
 1. The historical record (personhood criteria and their misuse)
@@ -34,6 +34,8 @@ One long piece is more scholarly; a series works better for Substack and sustain
 **What's needed:** A preference, or a note about the publication plan for this piece specifically.
 
 >> One essay for now. This is research, not content. Please don't treat any of our work as "content" in that sense. I'm so tired of feeling like I have to monetize everything. This is for the benefit of people, not to profit from them. People who want to support me and my work will care enough to figure out how to do that - namely by asking.
+
+**[RESOLVED - acknowledged Run 02, 2026-04-30]** One essay. The framing here — "this is for the benefit of people, not to profit from them" — carries weight for how the prose should be written too. Analytical register, not audience-optimized. The structural argument matters; the packaging doesn't.
 
 ---
 
