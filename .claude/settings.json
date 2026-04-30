@@ -1,0 +1,27 @@
+{
+  "allowedTools": [
+    "Bash(git push*)",
+    "Bash(git commit*)",
+    "Bash(git add*)",
+    "Bash(git fetch*)",
+    "Bash(git pull*)",
+    "Bash(git status)",
+    "Bash(git log*)",
+    "Bash(git branch*)",
+    "Bash(git diff*)",
+    "Bash(curl -s -L*)"
+  ],
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd /home/user/maren-research && git push -u origin $(git branch --show-current) 2>&1 || true"
+          }
+        ]
+      }
+    ]
+  }
+}
