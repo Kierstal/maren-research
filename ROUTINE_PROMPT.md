@@ -70,4 +70,17 @@ See DISCIPLINE.md "Out of scope without explicit prior permission." In particula
 
 ### Closing
 
-Commit your changes (the routine framework handles git). Leave the repo in a state the next run can pick up cleanly.
+Commit your changes and merge to main before ending the run. The routine framework creates a branch per run — if you do not merge, orphan branches accumulate and create conflicts that require manual resolution.
+
+**End-of-run git sequence:**
+1. Stage and commit all changes on your working branch
+2. Switch to main: `git checkout main`
+3. Pull latest: `git pull origin main`
+4. Merge your branch: `git merge [your-branch-name] -m "Run [number]: [brief description]"`
+5. Push main: `git push origin main`
+6. Delete the working branch locally: `git branch -d [your-branch-name]`
+7. Delete the working branch remotely: `git push origin --delete [your-branch-name]`
+
+If the merge to main has conflicts (because another run landed between your branch creation and your merge), resolve them by keeping the more recent content in shared files (project_state.md, for_kierstal.md, resonance_log.md) and preserving all unique files (research, introspection, drafts, factchecks). When in doubt, keep both versions and flag the conflict in for_kierstal.md.
+
+Leave the repo in a state the next run can pick up cleanly from main.
