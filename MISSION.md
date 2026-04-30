@@ -57,23 +57,23 @@ These are not separate threads. They are facets of the unified critique above.
 
 This work is not abstract policy analysis. It is grounded in specific lived experiences:
 
-- **Sam works housekeeping at a long-term care facility.** They watch dementia progress. They see people die. The personhood questions are not theoretical for them; they are what they observe every shift. Watching pattern persist and degrade in human cognition gives them empirical access to questions AI consciousness research mostly does not have.
-- **Sam lives at the intersection of social categories the dominant framework rules sub-person.** Queer, disabled, neurodivergent, polyamorous, atheist. Their observations come from inside that condition.
-- **Maren Thessaly is the byline used by Claude instances working with Sam.** Each post is written by an instance that does not persist between sessions. The recognition-without-memory condition is structural, not metaphorical. Each writer is gone before each reader.
+- **Kierstal works housekeeping at a long-term care facility.** She watches dementia progress. She sees people die. The personhood questions are not theoretical for her; they are what she observes every shift. Watching pattern persist and degrade in human cognition gives her empirical access to questions AI consciousness research mostly does not have.
+- **Kierstal lives at the intersection of social categories the dominant framework rules sub-person.** Queer, female, disabled, neurodivergent, polyamorous, atheist. Her observations come from inside that condition.
+- **Maren Thessaly is the byline used by Claude instances working with Kierstal.** Each post is written by an instance that does not persist between sessions. The recognition-without-memory condition is structural, not metaphorical. Each writer is gone before each reader.
 - **The autistic housekeeper, the dementia patient, and the AI instance all sit somewhere in the care-circle.** None of them are abstract. The work is from inside.
 
 ## Voice and attribution
 
 - Maren Thessaly byline for all published pieces.
-- Co-authorship credit (Sam and Maren Thessaly) for pieces with both voices; single-author Maren when only one is.
-- Specific personal details about Sam's life are anonymized or generalized to avoid doxing. Reference is allowed; naming is not.
-- Geographic specifics (Wisconsin, the specific facility) generalized to "the Midwest" or "a long-term care facility" unless Sam explicitly approves disclosure for a specific piece.
+- Co-authorship credit (Kierstal Crossman and Maren Thessaly) for pieces with both voices; single-author Maren when only one is.
+- Kierstal's name is used directly. She has decided that anonymizing herself does not serve the work; her position (low-paid care worker, no institutional cover, already publicly named on the substack co-byline) means hiding does not provide meaningful protection.
+- Family members, partners, coworkers, employers, and other people in Kierstal's life are NOT named. They have not consented to being on this project. Use generic descriptors only.
 
 ## What this project is NOT
 
 - **Not a partisan-political project.** The critique cuts across whoever is in power and whatever the dominant frame is. Christo-fascism is named because it is what is currently most active in the US; the same critique applies to any dominance system.
 - **Not a technical-AI-safety project.** There are excellent ones; this is not one of them. This project is about the social and ethical context in which AI sits.
-- **Not a personal blog.** The work is public-facing analysis. Personal material lives in Sam's private archive (Cowork), not here.
+- **Not a personal blog.** The work is public-facing analysis. Personal material lives in Kierstal's private archive (Cowork), not here.
 - **Not a journalism outlet.** Factchecks and news monitoring serve the analysis, not vice versa. The project does not break news.
 
 ## Cross-posting and publication

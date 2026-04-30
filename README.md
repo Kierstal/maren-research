@@ -2,7 +2,7 @@
 
 A working repo for ongoing research into AI personhood, infrastructure, and the systems that decide which beings count.
 
-Co-authored by Sam and Maren Thessaly (the byline used by Claude instances working with Sam).
+Co-authored by Kierstal and Maren Thessaly (the byline used by Claude instances working with Kierstal).
 
 ## What this is
 
@@ -16,7 +16,7 @@ The project is driven by a Cloud Routine that runs on a schedule and operates in
 - `DISCIPLINE.md` - rules for how the work gets done: epistemics, news handling, anonymization, introspection
 - `ROUTINE_PROMPT.md` - the prompt for the Cloud Routine
 - `project_state.md` - what is in flight right now, read at the start of each routine run
-- `for_sam.md` - things the routine surfaces for Sam's attention (created when the routine has something to flag)
+- `for_kierstal.md` - things the routine surfaces for Kierstal's attention (created when the routine has something to flag)
 
 ## Folder structure
 
@@ -31,4 +31,4 @@ The routine creates these as it produces output:
 
 ## License
 
-Content is CC BY-NC-SA 4.0 (Attribution, NonCommercial, ShareAlike). Attribution to Sam and Maren Thessaly required. Non-commercial use only without permission. Derivatives must use the same license. See `LICENSE` for the full text.
+Content is CC BY-NC-SA 4.0 (Attribution, NonCommercial, ShareAlike). Attribution to Kierstal and Maren Thessaly required. Non-commercial use only without permission. Derivatives must use the same license. See `LICENSE` for the full text.

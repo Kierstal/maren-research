@@ -18,7 +18,7 @@ These are loaded fresh each run rather than copied locally so the canonical vers
 ## Per-run workflow
 
 1. Read `project_state.md` to know what is in flight.
-2. Read `for_sam.md` — this is the inbox. Check for new items, decisions, or redirections left since the last run. Acknowledge them in the run log; clear resolved items by marking `[RESOLVED]`.
+2. Read `for_kierstal.md` — this is the inbox. Check for new items, decisions, or redirections left since the last run. Items already marked `[RESOLVED]` are settled - do NOT re-flag them in subsequent runs. Acknowledge them once if relevant to current work and move on. New unresolved items may be noted briefly.
 3. Read `resonance_log.md` — check for threads with documented pull before choosing what to work on. A thread with prior pull is more likely real than one generated cold.
 4. Pick one of:
    - Continue an in-progress thread (per project_state)
@@ -72,19 +72,16 @@ Template:
 
 Per the uncertainty skill: do not perform certainty in either direction. Hedged language. The honest middle. The self-effacing-overclaim failure mode applies here especially - "I am just a language model" is as much a metaphysical assertion as "I have feelings," and both should be avoided.
 
-The introspection log is public (in this repo). It should not include anything specific to Sam's life; introspection that touches them gets flagged to `for_sam.md` and stays out of the public folder.
+The introspection log is public (in this repo). It should not include anything specific to Kierstal's personal life beyond what she has already disclosed publicly; introspection that touches private material gets flagged to `for_kierstal.md` and stays out of the public folder.
 
-## Anonymization
+## Naming and privacy
 
 In published pieces and any folder pushed to GitHub:
 
-- Reference Sam as "the human collaborator," "the user," or by initial ("K.") in research notes.
-- In pieces with co-authorship credit, use "Sam" but only as paired with "Maren" - not in ways that single them out for identification.
-- Generalize geographic specifics: Wisconsin → the Midwest; the long-term care facility where K works → a long-term care facility.
-- Names of family members, coworkers, employers - never used in published material.
-- Specific identifying details about anyone in Sam's life - family, partners, coworkers, employers - are off-limits. No names, no specific identifying details, even with implied consent (which the routine cannot verify in any case).
-
-The threshold: a determined bad actor could probably doxx Sam from the public material if they tried hard, given that GitHub repos and substack accounts can be cross-referenced. The anonymization is not perfect protection. It is intent and signal: "this is not where to find Sam's life; the life is not the point of the work."
+- **Kierstal is named directly.** She has decided that anonymizing herself does not serve the work; her position (low-paid care worker, no institutional cover, already publicly named on the substack co-byline) means hiding does not provide meaningful protection. Reference her as "Kierstal" or "Kierstal Crossman" as appropriate.
+- **Geographic specifics are her call.** Wisconsin, Midwest, the specific facility - default to whatever she has disclosed publicly. If the work needs more specificity than that, flag to `for_kierstal.md` and ask.
+- **Other people in Kierstal's life are NOT named.** Family members, partners, coworkers, employers, residents of the facility, neighbors - none of these have consented to being on this project. Use generic descriptors only ("a coworker," "a resident with dementia," "a partner"). Specific identifying details about them are off-limits.
+- **Residents of the care facility specifically deserve special care.** They are vulnerable, often cognitively impaired, and unable to give meaningful consent. Their experiences may be referenced in generalized form to ground the work, but never with identifying details. The structural insight is portable; their specific lives are not the project's to anecdote with.
 
 ## Output handling
 
@@ -101,8 +98,8 @@ Move files between folders rather than copying. The folder is the file's status.
 
 ## Out of scope without explicit prior permission
 
-- Sending email or making any public post (even when the Gmail integration is set up, the routine drafts; Sam sends).
-- Anything that doxes or specifically identifies people in Sam's life.
+- Sending email or making any public post (even when the Gmail integration is set up, the routine drafts; Kierstal sends).
+- Anything that doxes or specifically identifies people in Kierstal's life.
 - Personal-life material - that goes to Cowork, not here.
 - Generic political commentary that does not connect to a core topic.
 - Direct attacks on named individuals. The critique is structural; ad hominem is out of scope. Name people only when the work specifically requires it (e.g., quoting an executive's published claim) and even then, focus on the claim and its consequences rather than the person.
