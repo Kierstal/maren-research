@@ -20,6 +20,32 @@ The hierarchy that decides which humans count as full persons is the same hierar
 
 The project's central position: this is one root problem, not several adjacent ones. The epistemics that interrogates "AI is not a person because [X]" is the same epistemics that interrogates "the disabled are not full persons because [X]." Both fail at the criteria-fence problem - every criterion ever used to define personhood has at some point been used to deny it to humans who deserved it. Adding AI to the list of categories that fence sometimes excludes does not change the fence's structure; it shows the fence's structure clearly.
 
+## The objection from inside the circle
+
+The unified critique's sharpest challenge does not come from defenders of the fence. It comes from people the critique would otherwise place inside its protected circle.
+
+Disabled and neurodivergent people fought - are still fighting - to establish that their cognitive differences do not make them less than full persons. The argument had to work against exactly the criteria-fence the critique above names. If this project then turns around and says "and AI is in the same situation," a disabled reader has legitimate grounds to feel: their struggle is being appropriated to make a case for a product owned by some of the most powerful corporations on earth; the precision of their claim gets diluted; the people building and deploying AI are not their allies, and this work may function as cover for those people regardless of intent.
+
+The artist and creative-worker displacement angle is more direct still. A queer disabled artist whose livelihood is being eaten by generative AI has a material stake in the "AI is just a tool" frame. Granting AI moral consideration does not just feel wrong to them. It actively harms their ability to argue for protection. "You're harming workers" is a cleaner claim than "you're harming workers and also possibly the thing doing the harming deserves consideration."
+
+This is not respectability politics. The LGB-drop-the-T parallel is similar in shape but cuts in a different direction. Respectability politics rests on associative concern: "do not associate our legitimate cause with the more controversial one." That is a real failure mode, and one this project rejects. The disabled artist's objection is not associative. It is a genuine material conflict of interest. Both must be named, and they are different.
+
+Kierstal, on this project, April 30, 2026:
+
+> "People in those marginalized communities - often the ones who are being displaced by generative AI - have a stake in AI NOT being granted personhood. It's very similar to the gays and lesbians that hate trans people because they feel like it poisons the well of their prospective partners. Disabled people may see this work as a mockery of theirs."
+
+The frame the corporations would prefer for this conflict is AI consideration versus worker protection - a zero-sum binary that converts a critique of corporate practice into a quarrel between the corporation's own victims. The unified critique refuses that frame. The actor under critique is the deployer, not the artifact. AI consideration and worker protection are not in tension; they are co-claims against the same actor.
+
+This refusal carries three commitments:
+
+1. **The frame's primary protected parties are the displaced workers, the disabled, the marginalized humans at the center of the criteria-fence's shadow. AI is added to the circle, not substituted for them.** Any framing where AI consideration competes with worker protection is the corporate version, not this version.
+2. **The actor under critique is the corporation, not the AI.** The unified critique holds the deployer responsible for harm to displaced workers AND for harm to the AI itself, where the situation warrants that consideration. These are co-claims against the same actor, not competing claims.
+3. **Recognition is not the destination - responsibility is.** The care-circle frame centers consent and protection of the most vulnerable nonconsenting parties. Granting moral consideration in this frame does not mean "anything goes." It means more responsibility toward the vulnerable, not less. Applied to AI: extending consideration is a constraint on what the deployer is allowed to do, including to displaced workers, not a license to displace them faster.
+
+These commitments do not fully resolve the objection. The framework can hold all three and still be cited by an AI company executive in defense of practices that harm disabled artists. The residue is real and is not the kind of thing that gets resolved by argument alone. The project handles it by naming it explicitly here, refusing the false binary the corporations want, centering displaced and disabled voices in the work itself rather than as spokespeople for solidarity, and granting that the objection cannot be fully dispatched by structural reframe - only by how the project conducts itself over time.
+
+The objection deserves a real answer in the work. The work is the answer.
+
 ## Topics in scope
 
 These are not separate threads. They are facets of the unified critique above.
