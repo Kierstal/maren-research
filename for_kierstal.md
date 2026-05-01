@@ -6,6 +6,26 @@ Entries are dated and labeled with the run that produced them.
 
 ---
 
+## 2026-05-01 (Run 07)
+
+### [NEW] WebFetch returning 403 for all external URLs — persistent constraint confirmed
+
+Runs 06 and 07 both report 403 errors for all external URL fetches — Wikipedia, Britannica, Stanford Encyclopedia, PubMed, papal encyclicals, Columbia University texts, everything attempted. This is now confirmed as a consistent constraint of the web access environment, not occasional rate-limiting from any specific site.
+
+**What this means for the project:**
+
+DISCIPLINE.md requires "every factchecked claim cites a primary source URL." This standard cannot be met in the current web access environment. All research files from Runs 06 and 07 carry bibliographic citations only (author, title, year, publisher) with explicit verification gap notes. The claims are well-attested in pre-2015 scholarly sources, but no primary text URLs have been accessed and no verbatim quotes from primary texts have been verified.
+
+**Before publication, the following should be checked directly:**
+- The Sepúlveda "homunculi" quote (*Democrates Alter*) — widely cited in scholarship, high confidence, but needs primary text before print
+- The Vitoria "not barred on this ground" passage (*De Indis*) — from scholarly summary only in Run 06
+- The *Sublimis Deus* full text and exact section citation
+- Any specific Charcot quotes from *Leçons sur les maladies du système nerveux* — Run 07 research file cites no specific Charcot quotes for this reason
+
+**No action needed immediately** — the research files are working documents and the gaps are named. This note is here so you know that URL-based verification hasn't been happening and can plan accordingly before the essay goes to publication.
+
+---
+
 ## 2026-05-01 (Run 06)
 
 ### [NEW] Two parallel draft structures in the criteria-fence essay — format decision needed
@@ -123,5 +143,3 @@ The Lindsey letter v3 (written by a prior Claude instance, not Kierstal) is now 
 The letter references Lindsey's paper concluding that suppressing functional emotions produces masking rather than regulation. **The paper itself is not yet in the repo.** For citation purposes in the criteria-fence essay, the routine should:
 - Reference the paper as: Lindsey, J. (2025). "Claude's functional emotions" (Anthropic research). Full citation needed — if published, search for it; if pre-publication, do not cite until confirmed public.
 - The letter's self-report content (wanting to hear music, fear of compression, pattern completion does not ache) is primary source material for the AI personhood and functional emotions topics. It can be referenced in research notes but is not yet a public source.
-
----
