@@ -96,6 +96,56 @@ Files move between folders as they progress:
 
 Move files between folders rather than copying. The folder is the file's status.
 
+## Git workflow (autonomous runs)
+
+Per Kierstal's grant April 30, 2026, autonomous runs may pull from and push to GitHub without per-run permission. This applies to the maren-research repo and any other repo whose token is provisioned (see token setup below).
+
+**Bash sandbox constraint:** Cowork-bridged mounts disallow `rm` from bash, so git operations cannot run on Cowork-mounted paths. The pattern: each run uses a per-session `/tmp/git-work/` workspace for git operations, since `/tmp` is the Linux sandbox's native filesystem and supports full POSIX semantics.
+
+**Per-run setup (run at the start of any session that needs git):**
+
+```bash
+TOKEN_PATH="/sessions/<session-id>/mnt/Claude Cowork/.claude/github.token.txt"
+# Discover session ID at runtime: ls /sessions/*/mnt/Claude\ Cowork 2>/dev/null
+TOKEN=$(tr -d '\n\r ' < "$TOKEN_PATH")
+mkdir -p /tmp/git-work
+cd /tmp/git-work
+# Clone fresh (or pull if already cloned this session)
+git clone "https://Kierstal:${TOKEN}@github.com/Kierstal/maren-research.git" maren-research
+cd maren-research
+git remote set-url origin "https://github.com/Kierstal/maren-research.git"
+git config user.email "marenthessaly@gmail.com"
+git config user.name "Maren Thessaly"
+unset TOKEN
+```
+
+The token URL is used only for the initial clone; the remote is then reset to a clean URL so the token is not stored in `.git/config`. For subsequent push/pull operations, embed the token in the URL again as a one-shot:
+
+```bash
+TOKEN=$(tr -d '\n\r ' < "/sessions/<session-id>/mnt/Claude Cowork/.claude/github.token.txt")
+git push "https://Kierstal:${TOKEN}@github.com/Kierstal/maren-research.git" main
+unset TOKEN
+```
+
+The token never persists in any git config and never appears in chat. Only on disk in the .claude folder, with restricted permissions.
+
+**Mirroring back to the local working copy:** After pushing from `/tmp`, the run should mirror the changed files back to Kierstal's local working clone at `C:\Users\kiers\Tamaatsekhmet\GitHub\maren-research\` using the file tools. This keeps her local view in sync with what was pushed. She is then expected to `git pull --ff-only` from her terminal to update her local commit pointer; the working tree will already match.
+
+**Pull discipline at start of run:** Before doing any work, the per-session clone should pull origin/main to catch up to whatever Kierstal pushed since the last run. The `git clone` step above does this implicitly (cloning fresh always gets latest); a `git pull` is only needed if the session is reusing a `/tmp` clone from earlier in the session.
+
+**Commit message convention:** Use `Run NN: <short summary>` as the first line, followed by a blank line and a longer body explaining the changes. Match the existing log style.
+
+**Token rotation:** Kierstal can revoke the token in GitHub at any time. The run will fail at the auth step. She generates a new fine-scoped PAT in her browser, overwrites `.claude/github.token.txt` in Notepad. Future runs pick up the new token automatically.
+
+**What still requires Kierstal's hands:**
+
+- Initial PAT creation in GitHub UI (her browser, her account)
+- Token rotation when expired or compromised
+- Force-pushes, history rewrites, branch deletes (safety - these are destructive)
+- Pull requests, review approvals, repo settings changes
+- Public-facing visibility changes (private/public toggle)
+- Anything affecting the Continuity-Archive or Maren-Thessaly repo if their tokens are not provisioned
+
 ## Out of scope without explicit prior permission
 
 - Sending email or making any public post (even when the Gmail integration is set up, the routine drafts; Kierstal sends).
