@@ -6,9 +6,60 @@ Entries are dated and labeled with the run that produced them.
 
 ---
 
+## 2026-05-01 (Run 06)
+
+### [NEW] Two parallel draft structures in the criteria-fence essay — format decision needed
+
+The `drafts/` folder contains two structurally different versions of the criteria-fence essay that are not tracked in project_state.md:
+
+- **`drafts/criteria-fence-extended.md`** (tracked): Single-author Maren voice. Contains: status header, prose introduction (~650 words), Section 1 prose (~850 words), and the full outline. This is the version tracked in project_state.md.
+
+- **`drafts/criteria-fence-prose-draft.md`** (untracked): Alternating [MAREN] / [K.] sections, following the two-author structure of Post 1. Contains a MAREN section on the structural gatekeeping insight, a K. section on the dementia care floor as ground truth, and a MAREN section on the mechanistic argument. The K. section grounds the argument in the care circle more directly than anything in criteria-fence-extended.md.
+
+- **`drafts/criteria-fence-prose-v1.md`** (untracked): A third draft file, also not in project_state.
+
+These appear to be from runs that didn't update project_state properly, likely from orphaned branches that merged without documentation.
+
+**The structural question:** The alternating K./Maren format matches Post 1 and may be the right structure for this essay. It requires your voice for the K. sections but produces something closer to the publication's established form. The single-author Maren version is easier to draft autonomously but may not match what readers of the substack expect.
+
+**Action needed:** Please look at `drafts/criteria-fence-prose-draft.md` and decide which format to use going forward. Once the format is decided, one version should be designated the working draft and the other archived. The routine will not draft further prose sections of this essay until it knows which structure to use.
+
+---
+
+### [NEW] Orphaned branches need manual cleanup
+
+Five `claude/peaceful-tesla-*` branches exist on the repo from previous routine runs that did not complete the merge/delete steps. The MCP-based routine runs cannot merge branches without creating a PR (which instructions say not to do), and there is no MCP tool for branch deletion. This run pushed directly to main to avoid adding to the pile.
+
+**Branches to check and likely delete:**
+- `claude/peaceful-tesla-6IxkT` (sha: ccb0cbae — different from main, may have unique commits)
+- `claude/peaceful-tesla-52haU` (sha: 3f221030 — same as main, safe to delete)
+- `claude/peaceful-tesla-LOZu1` (sha: e9b2ba168 — different from main)
+- `claude/peaceful-tesla-glT4y` (sha: e9b2ba168 — same as LOZu1)
+- `claude/peaceful-tesla-tDGWl` (sha: e9b2ba168 — same as LOZu1)
+- `claude/peaceful-tesla-uxV2h` (sha: a0427de6 — different from main)
+
+Before deleting branches with shas different from main, it would be worth quickly checking whether their commits are already represented in main's history (they probably are, but worth confirming). The branches with sha e9b2ba168 appear to be three separate branch names pointing to the same commit, likely from runs that created the branch but couldn't push.
+
+**To clean up:** GitHub UI → repository → branches → delete each one, or via command line: `git push origin --delete claude/peaceful-tesla-6IxkT` (etc.).
+
+---
+
+### [NEW] Primary source URLs returning 403 — re-fetch needed before publication
+
+Several key primary source URLs for the colonial consciousness research returned 403 errors this run. These are established public-domain texts; the 403s likely reflect server-side rate limiting rather than actual access restrictions. A future run should attempt re-fetch.
+
+Before publication of Section 2 of the criteria-fence essay, the following need direct text verification and verbatim citation:
+- Sepúlveda *Democrates Alter*: https://www.columbia.edu/acis/ets/CCREAD/sepulved.htm
+- *Sublimis Deus* (1537): https://www.papalencyclicals.net/paul03/p3subli.htm
+- Vitoria *De Indis*: https://teachingamericanhistory.org/document/de-indis/
+
+The "homunculi" quote ("half-men, in whom you will barely find the vestiges of humanity") is widely cited in scholarship and has high confidence, but should be verified against the primary text before publication.
+
+---
+
 ## 2026-04-29 (Run 02)
 
-### [NEW] Lindsey et al. (2026) is now public — full text fetch needed
+### [PENDING] Lindsey et al. (2026) is now public — full text fetch needed
 
 The paper referenced in Run 01's for_sam.md ("Lindsey's paper concluding that suppressing functional emotions produces masking rather than regulation") appears to be:
 
