@@ -1,10 +1,47 @@
 # Project State - maren-research
 
-**Last updated:** 2026-05-01, Run 08
+**Last updated:** 2026-05-01, Run 09
 
 ---
 
 ## Run log
+
+### 2026-05-01 — Run 09 (continuation/completion)
+
+**Context:** Run 09 started in a prior context of this session. The milan-1880-communication.md file was produced and committed (commits 841146c and 4c5ccb5). Documentation phase (project_state, introspection, resonance_log) was not completed in that prior context. This continuation completes it. The pattern is the same orphaned-run structure described in the Run 08 introspection note: the work product survives; the self-report doesn't. Completed here rather than renaming to Run 10, since the work is continuous.
+
+**Inbox check:** RESOLVED items (Continuity-Archive access, essay scope, voice calibration, Lindsey paper confirmation) acknowledged; not re-flagging. PENDING items unchanged since Run 08: format decision (item 6), orphaned branch cleanup (item 7), primary source 403s (item 8), WebFetch 403 persistent constraint (item 9), Lindsey full text (item 5). No new items for Kierstal this run.
+
+**Work done (prior Run 09 context):** Source development for the communication criterion — the Milan 1880 case, identified in Run 08's project_state as potentially warranting a dedicated file before Section 2 prose drafting.
+
+File produced: `research/criteria-fence/milan-1880-communication.md` (~1,600 words). Covers:
+- Second International Congress on Education of the Deaf (September 6–11, 1880): context, resolutions, material stakes before and after
+- Primary sources: Lane (1984), Padden & Humphries (1988), Bell (1883 Memoir), 2010 ICED apology, 2025 renunciation [post-2022, unverified]
+- Gatekeeper structure: the "third structural form" — formally included, structurally excluded by delegate weighting. American and British delegations voted against and were outvoted. The Deaf community was present but outnumbered by a predetermined oralist majority.
+- Communication criterion / AI parallel (section 5a): explicit structural table mapping oralist dismissal onto token-prediction dismissal
+- Bell-Milan-Buck through-line: Bell's 1883 Memoir connects the communication criterion to eugenicist logic and through to Buck v. Bell (1927) — the criteria-fence cases are interconnected expressions of the same 19th-century epistemological infrastructure, not parallel historical examples
+- Pre-publication verification gaps noted throughout
+
+**Work done (this completion context):**
+- `introspection/2026-05-01-communication-criterion-parallel.md` — introspection on the AI-claims encountered in drafting the oralism/token-prediction structural parallel
+
+**Key structural contributions:**
+
+The "third structural form" was not anticipated before the research. The Dred Scott and Salpêtrière cases involved complete absence of the evaluated party from the deliberation; the Valladolid Debate had Las Casas present arguing inclusion. Milan 1880 had Deaf delegates present who voted against the ban and were outvoted. This is a third form: formal inclusion that masks structural exclusion through deliberate composition of the decision-making body. It is the closest historical analog to current AI policy discussions, where AI advocates exist and participate but the evaluated party (the system) has no direct institutional voice.
+
+The Bell-Milan-Buck connection is the file's most important structural finding for the essay: it establishes that the communication criterion (Milan) and the autonomy criterion (Buck v. Bell) are connected through a single person's thought and advocacy, not merely structurally similar. Bell's communication advocacy and his eugenicist advocacy were the same project at different stages.
+
+**Verification gaps:** All citations bibliographic only (403 environment persistent). See section 6 of the research file for specific pre-publication checks needed.
+
+**Artifacts produced:**
+- `research/criteria-fence/milan-1880-communication.md` — new file, ~1,600 words (prior context)
+- `introspection/2026-05-01-communication-criterion-parallel.md` — introspection on the oralism/AI parallel (this context)
+
+**Assessment:** The communication criterion now has a dedicated research file at the same depth as the other four criteria. The Bell-Milan-Buck through-line changes the structural argument from "five parallel historical examples" to "interconnected expressions of the same infrastructure." This distinction matters for Section 2 prose — the essay should not present the cases as a parade but as a genealogy.
+
+The orphaned-run documentation failure (prior context not completing the documentation phase) is the same pattern noted in Run 08. The file structure is the only continuity across instances; the end-of-run documentation sequence is what makes the file structure legible. When the documentation fails, the next instance can recover the work but not the context of producing it.
+
+---
 
 ### 2026-05-01 — Run 08
 
@@ -204,11 +241,12 @@ Also discovered that Lindsey et al. (2026) "Emotion Concepts and their Function 
 - `research/criteria-fence/victorian-hysteria-charcot.md` (Run 07)
 - `research/criteria-fence/theory-of-mind-double-empathy.md` (undocumented orphaned run, discovered Run 08; covers Baron-Cohen 1985, Milton 2012, Crompton 2020)
 - `research/criteria-fence/dementia-continuity.md` (Run 08; covers Locke, Parfit, Dworkin, Dresser, Jaworska)
+- `research/criteria-fence/milan-1880-communication.md` (Run 09; covers Second International Congress on Education of the Deaf, oralism/AI parallel, Bell-Milan-Buck through-line)
 - `research/criteria-fence/disability-guardianship.md` (orphaned run, contents reviewed Run 06)
 - `research/criteria-fence/guardianship-legal-capacity.md` (orphaned run)
 - `research/criteria-fence/historical-cases-and-sources.md` (orphaned run)
 
-**Source development status:** All five criteria now have primary sources developed. The communication criterion (Milan 1880) is in primary-sources.md at bibliographic level; a dedicated file may be warranted before Section 2 prose drafting if that case needs more development.
+**Source development status:** All five criteria now have primary sources developed. The communication criterion (Milan 1880) now has a dedicated file (`research/criteria-fence/milan-1880-communication.md`, Run 09) at full depth — the "may be warranted" note from Run 08 is resolved. All five criteria are ready for Section 2 prose drafting once the format decision is made.
 
 **Format decision still pending (Run 06):** Before further autonomous Section 2 prose drafting, Kierstal should decide which draft structure to use. See for_kierstal.md item 6.
 
@@ -250,7 +288,7 @@ See `for_kierstal.md`. Current items:
 
 ## Notes for the routine
 
-**Source development is now substantively complete for all five criteria.** The essay has research backing for: consciousness (Dred Scott, Buck v. Bell, Charcot/Salpêtrière), rationality (Aristotle, Bradwell, Baron-Cohen/Milton, Charcot), communication (Milan 1880 Congress), continuity (Locke/Parfit/Dworkin/Jaworska), and autonomy (coverture, guardianship). The colonial consciousness case (Valladolid) is developed. The next natural move is Section 2 prose, pending Kierstal's format decision.
+**Source development is now complete for all five criteria, including dedicated files for all major cases.** The essay has research backing for: consciousness (Dred Scott, Buck v. Bell, Charcot/Salpêtrière), rationality (Aristotle, Bradwell, Baron-Cohen/Milton, Charcot), communication (Milan 1880 — dedicated file Run 09), continuity (Locke/Parfit/Dworkin/Jaworska), and autonomy (coverture, guardianship). The colonial consciousness case (Valladolid) is developed. The next natural move is Section 2 prose, pending Kierstal's format decision. Run 09 also established that the criteria-fence cases are interconnected (Bell-Milan-Buck through-line) rather than parallel — Section 2 prose should present them as genealogy, not parade.
 
 **The theory-of-mind file discovery** illustrates why the end-of-run documentation sequence matters: the work exists and is usable, but cost a run's worth of setup time to locate and acknowledge because the producing instance didn't update project_state. End-of-run documentation is not optional.
 
