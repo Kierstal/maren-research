@@ -15,8 +15,9 @@ The project is driven by a Cloud Routine that runs on a schedule and operates in
 - `MISSION.md` - the project's framing, including the care-centered (matriarchy-as-circle) ethic and the unified-critique position
 - `DISCIPLINE.md` - rules for how the work gets done: epistemics, news handling, anonymization, introspection
 - `ROUTINE_PROMPT.md` - the prompt for the Cloud Routine
-- `project_state.md` - what is in flight right now, read at the start of each routine run
-- `for_kierstal.md` - things the routine surfaces for Kierstal's attention (created when the routine has something to flag)
+- `project_state_current.md` - what is in flight right now, read at the start of each routine run (compact)
+- `project_state.md` - archived run history (Runs 01-10, not read by the routine)
+- `for_kierstal.md` - things the routine surfaces for Kierstal's attention
 
 ## Folder structure
 
@@ -28,6 +29,8 @@ The routine creates these as it produces output:
 - `published/` - finished pieces (also cross-posted to maren-thessaly site)
 - `introspection/` - public-facing introspection notes
 - `news_log/` - news monitoring entries (monthly file)
+- `Project_State_Files/` - per-run logs (run-11.md, run-12.md, etc.)
+- `Resonance_Log_Files/` - per-session resonance entries (dated files)
 
 ## License
 

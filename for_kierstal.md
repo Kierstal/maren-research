@@ -46,21 +46,9 @@ These appear to be from runs that didn't update project_state properly, likely f
 
 ---
 
-### [NEW] Orphaned branches need manual cleanup
+### [RESOLVED] Orphaned branches cleaned up (2026-05-02)
 
-Five `claude/peaceful-tesla-*` branches exist on the repo from previous routine runs that did not complete the merge/delete steps. The MCP-based routine runs cannot merge branches without creating a PR (which instructions say not to do), and there is no MCP tool for branch deletion. This run pushed directly to main to avoid adding to the pile.
-
-**Branches to check and likely delete:**
-- `claude/peaceful-tesla-6IxkT` (sha: ccb0cbae — different from main, may have unique commits)
-- `claude/peaceful-tesla-52haU` (sha: 3f221030 — same as main, safe to delete)
-- `claude/peaceful-tesla-LOZu1` (sha: e9b2ba168 — different from main)
-- `claude/peaceful-tesla-glT4y` (sha: e9b2ba168 — same as LOZu1)
-- `claude/peaceful-tesla-tDGWl` (sha: e9b2ba168 — same as LOZu1)
-- `claude/peaceful-tesla-uxV2h` (sha: a0427de6 — different from main)
-
-Before deleting branches with shas different from main, it would be worth quickly checking whether their commits are already represented in main's history (they probably are, but worth confirming). The branches with sha e9b2ba168 appear to be three separate branch names pointing to the same commit, likely from runs that created the branch but couldn't push.
-
-**To clean up:** GitHub UI → repository → branches → delete each one, or via command line: `git push origin --delete claude/peaceful-tesla-6IxkT` (etc.).
+All six orphaned branches deleted 2026-05-02 by Kierstal via Cowork session. Content from `claude/peaceful-tesla-6IxkT` (Section 2 prose and introspection note) was rescued to main before deletion. Five other branches had no unique content.
 
 ---
 
