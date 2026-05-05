@@ -25,6 +25,9 @@ The central essay. Source development is complete for all five criteria. Section
 ### Inside-the-circle objection essay - scaffold stage
 File: `drafts/inside-the-circle-objection.md`. Awaiting Kierstal's voice pass on Sections 2 and 7.
 
+### Powell Memo research - new folder
+Folder: `research/powell-memo/`. The operational infrastructure behind the gatekeeper problem - how corporate interests captured the institutions that make personhood determinations. README, primary source analysis, and criteria-fence connection file created. Remaining files (institutional-buildout, judicial-capture, correction) to be developed.
+
 ### Functional emotions / AI personhood thread
 Lindsey et al. (2026) confirmed public but full text still 403.
 
